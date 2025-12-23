@@ -1,0 +1,33 @@
+{
+  "name": "nodetype",
+  "version": "1.0.0",
+  "description": "nodejs com typescript curso tic em trilhas",
+  "homepage": "https://github.com/JoaoMarcusAndrade/Dominando-Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/JoaoMarcusAndrade/Dominando-Node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMarcusAndrade/Dominando-Node.js.git"
+  },
+  "license": "ISC",
+  "author": "JoaoMarcus",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.ts",
+    "start:dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2"
+  }
+}
